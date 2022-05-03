@@ -1,0 +1,13 @@
+{ 
+  "env": {
+  "browser": true, // Разрешить запуск кода в браузере
+  "es6": true, // Включает синтаксис ES6 автоматически
+  "node": true // Разрешить запуск кода в node
+  },
+  "extends": ["airbnb/base"],
+  "rules": {
+    "babel/camelcase": 1, // Названия переменных в camelCase стиле
+    "babel/object-curly-spacing": 1, // Одинаковый интервал внутри фигурных скобок
+    "babel/semi": 1 // Точка с запятой на конце
+}
+}
